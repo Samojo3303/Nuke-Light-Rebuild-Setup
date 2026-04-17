@@ -5,18 +5,7 @@ Install:
 - go to C: > Users > (your username) > .nuke
 - create a "tools" folder and add the AnimayhemNukeSetup_vXX.py file to it
 - open (or create) a menu.py in the .nuke folder
-- paste this:
-
-import nuke
-import tools.AnimayhemNukeSetup_v4 as ans
-
-menubar = nuke.menu("Nuke")
-custom = menubar.addMenu("Animayhem Tools")
-
-custom.addCommand(
-    "Build Light Setup",
-    "ans.main()"
-)
+- paste snippet from install_code.py
 - restart Nuke
 
 Use:
