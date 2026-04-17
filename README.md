@@ -3,7 +3,7 @@ Nuke tool to automatically create an additive light rebuilder setup for Houdini 
 
 Install:
 - go to C: > Users > (your username) > .nuke
-- create a "tools" folder and add the .py file to it
+- create a "tools" folder and add the AnimayhemNukeSetup_vXX.py file to it
 - open (or create) a menu.py in the .nuke folder
 - paste this:
 
