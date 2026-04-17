@@ -6,6 +6,7 @@ Install:
 - create a "tools" folder and add the .py file to it
 - open (or create) a menu.py in the .nuke folder
 - paste this:
+
 import nuke
 import tools.AnimayhemNukeSetup_v4 as ans
 
